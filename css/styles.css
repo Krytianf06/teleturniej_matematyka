@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  background-color: aquamarine;
+}
+
+li {
+  display: flex;
+  text-decoration: none;
+}
+
+@keyframes identifier {
+  
+}
+
+
+.menu__link { 
+  display: flex;
+  font-family: "Roboto";
+  font-weight: 400;
+  direction: none;
+  font-size: 25px;
+  text-decoration: none;
+  color: #212121;
+}
+
+.link {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header {
+  display: flex;
+  margin: 2% auto;
+  align-items: center;
+}
+.title {
+  display: flex;
+  font-family: 'Roboto';
+  font-size: 24px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.category {
+  display: flex;
+  height: 5%;
+  width: 30vb;
+  margin: 2% auto;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.box__item {
+  display: flex;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 20px;
+  height: 15vh;
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  border-radius: 15%;
+  background-color: rgb(193, 250, 196);
+  
+}
+
+.box__list > li:not(:last-child) {
+  display: flex;
+  margin-right: 15px;
+}
+
+.box__item:hover,
+.box__item:focus {
+  background-color: rgb(33, 119, 248);
+  transition: all 50ms linear 50ms;
+}
+
+.color__start {
+  background-color: green;
+  
+}
+
+.color__end {
+  background-color: blueviolet;
+  color: blueviolet;
+}
+
+.color__end:hover,
+.color__end:focus {
+  background-color: blueviolet;
+  color: blueviolet;
+}
+
+.hidden {
+  background-color: green;
+}
+
+.hidden:hover,
+.hidden:focus {
+  background-color: chartreuse;
+  transition: all 50ms linear 50ms;
+}
