@@ -110,3 +110,25 @@ li {
   background-color: chartreuse;
   transition: all 50ms linear 50ms;
 }
+
+
+.pierwszaLinia {
+  display: flex;
+  font-family: 'Roboto';
+  font-size: 24px;
+  align-items: center;
+  margin: 0px;
+}
+
+.drugaLinia {
+  display: flex;
+  font-family: 'Roboto';
+  font-size: 24px;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.kreskaPierwsza {
+  margin-top: 0px;
+}
