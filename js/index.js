@@ -23,8 +23,8 @@
 // 		card.classList.add("hidden");
 // 	});
 // }, 10);
-const Liczba1 = [1, 3, 5, 7];
-const Liczba2 = [3, 4, 5];
+const liczba1 = [1, 3, 5, 7];
+const liczba2 = [3, 4, 5];
 
 const mnozenie = (a, b) => {
 	const c = a * b;
@@ -35,4 +35,4 @@ const mnozenie = (a, b) => {
 	return c;
 };
 
-mnozenie(8, 4);
+mnozenie(liczba1[0], liczba2[2]);
