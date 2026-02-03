@@ -36,3 +36,4 @@ const mnozenie = (a, b) => {
 };
 
 mnozenie(liczba1[0], liczba2[2]);
+
